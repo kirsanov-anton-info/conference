@@ -1,0 +1,7 @@
+Django
+psycopg2
+djangorestframework
+django-cors-headers
+django-rest-swagger
+django-rest-knox
+pytest

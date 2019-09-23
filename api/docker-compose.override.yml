@@ -1,0 +1,8 @@
+version: '3.7'
+services:
+  postgres:
+    volumes:
+      - ../postgres-data/postgres:/var/lib/postgresql/data
+  api:
+    volumes:
+      - .:/app
